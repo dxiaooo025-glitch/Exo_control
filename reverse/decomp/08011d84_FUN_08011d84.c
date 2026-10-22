@@ -1,0 +1,90 @@
+
+void FUN_08011d84(void)
+
+{
+  undefined4 uVar1;
+  undefined4 local_9c;
+  undefined4 uStack_98;
+  undefined4 uStack_94;
+  undefined4 uStack_90;
+  undefined4 local_8c;
+  undefined4 uStack_88;
+  undefined4 uStack_84;
+  undefined4 local_80;
+  undefined4 uStack_7c;
+  undefined4 uStack_78;
+  undefined4 uStack_74;
+  undefined4 local_70;
+  undefined4 uStack_6c;
+  undefined4 uStack_68;
+  undefined4 local_64;
+  undefined4 uStack_60;
+  undefined4 uStack_5c;
+  undefined4 uStack_58;
+  undefined4 local_54;
+  undefined4 uStack_50;
+  undefined4 uStack_4c;
+  undefined4 local_48;
+  undefined4 uStack_44;
+  undefined4 uStack_40;
+  undefined4 uStack_3c;
+  undefined4 local_38;
+  undefined4 uStack_34;
+  undefined4 uStack_30;
+  undefined4 local_2c;
+  undefined4 uStack_28;
+  undefined4 uStack_24;
+  undefined4 uStack_20;
+  undefined4 local_1c;
+  undefined4 uStack_18;
+  undefined4 uStack_14;
+  
+  local_2c = *DAT_08011e4c;
+  uStack_28 = DAT_08011e4c[1];
+  uStack_24 = DAT_08011e4c[2];
+  uStack_20 = DAT_08011e4c[3];
+  local_1c = DAT_08011e4c[4];
+  uStack_18 = DAT_08011e4c[5];
+  uStack_14 = DAT_08011e4c[6];
+  uVar1 = FUN_08010642(&local_2c,0);
+  *DAT_08011e50 = uVar1;
+  local_48 = *DAT_08011e54;
+  uStack_44 = DAT_08011e54[1];
+  uStack_40 = DAT_08011e54[2];
+  uStack_3c = DAT_08011e54[3];
+  local_38 = DAT_08011e54[4];
+  uStack_34 = DAT_08011e54[5];
+  uStack_30 = DAT_08011e54[6];
+  uVar1 = FUN_08010642(&local_48,0);
+  *DAT_08011e58 = uVar1;
+  local_64 = *DAT_08011e5c;
+  uStack_60 = DAT_08011e5c[1];
+  uStack_5c = DAT_08011e5c[2];
+  uStack_58 = DAT_08011e5c[3];
+  local_54 = DAT_08011e5c[4];
+  uStack_50 = DAT_08011e5c[5];
+  uStack_4c = DAT_08011e5c[6];
+  uVar1 = FUN_08010642(&local_64,0);
+  *DAT_08011e60 = uVar1;
+  local_80 = *DAT_08011e64;
+  uStack_7c = DAT_08011e64[1];
+  uStack_78 = DAT_08011e64[2];
+  uStack_74 = DAT_08011e64[3];
+  local_70 = DAT_08011e64[4];
+  uStack_6c = DAT_08011e64[5];
+  uStack_68 = DAT_08011e64[6];
+  uVar1 = FUN_08010642(&local_80,0);
+  *DAT_08011e68 = uVar1;
+  local_9c = *DAT_08011e6c;
+  uStack_98 = DAT_08011e6c[1];
+  uStack_94 = DAT_08011e6c[2];
+  uStack_90 = DAT_08011e6c[3];
+  local_8c = DAT_08011e6c[4];
+  uStack_88 = DAT_08011e6c[5];
+  uStack_84 = DAT_08011e6c[6];
+  uVar1 = FUN_08010642(&local_9c,0);
+  *DAT_08011e70 = uVar1;
+  return;
+}
+
+

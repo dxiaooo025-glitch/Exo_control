@@ -1,0 +1,14 @@
+
+undefined4 FUN_080115cc(char param_1,undefined4 param_2)
+
+{
+  if (param_1 == '\0') {
+    FUN_0800eec8(DAT_08011604,DAT_08011600,param_2);
+  }
+  else {
+    FUN_0800eec8(DAT_08011604,DAT_08011600,param_2);
+  }
+  return DAT_08011600;
+}
+
+

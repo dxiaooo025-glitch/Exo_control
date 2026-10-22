@@ -1,0 +1,6 @@
+pylibs/
+__pycache__/
+*.pyc
+*.part
+*.tmp
+*.log

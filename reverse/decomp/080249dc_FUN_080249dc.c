@@ -1,0 +1,29 @@
+
+undefined4 FUN_080249dc(int param_1,int param_2)
+
+{
+  undefined4 uVar1;
+  
+  if (*(int *)(param_2 + 0x10) != 0) {
+    if ((param_1 != 0) && (*(int *)(param_1 + 0x20) == 0)) {
+      FUN_08022e3c();
+    }
+    if (*(short *)(param_2 + 0xc) != 0) {
+      if ((-1 < *(int *)(param_2 + 100) << 0x1f) && (-1 < (int)*(short *)(param_2 + 0xc) << 0x16)) {
+        FUN_080230ae(*(undefined4 *)(param_2 + 0x58));
+      }
+      uVar1 = FUN_080248d4(param_1,param_2);
+      if (*(int *)(param_2 + 100) << 0x1f < 0) {
+        return uVar1;
+      }
+      if ((int)((uint)*(ushort *)(param_2 + 0xc) << 0x16) < 0) {
+        return uVar1;
+      }
+      FUN_080230b0(*(undefined4 *)(param_2 + 0x58));
+      return uVar1;
+    }
+  }
+  return 0;
+}
+
+

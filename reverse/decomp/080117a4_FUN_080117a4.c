@@ -1,0 +1,10 @@
+
+undefined4 FUN_080117a4(void)
+
+{
+  FUN_0800f8d4(DAT_080117c4,DAT_080117c0,0);
+  FUN_0800f918(DAT_080117c4,DAT_080117c8);
+  return 0;
+}
+
+
